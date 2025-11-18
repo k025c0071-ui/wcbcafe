@@ -16,3 +16,15 @@ a{
 img{
     max-width: 100%;
 }
+/*レイアウト */
+.aligin-center{
+    text-align: center;
+}
+/* ヘッダー
+--------------------------*/
+.page-header{
+    padding-top: .5rem;
+}
+.logo{
+    width: 210px;
+}
