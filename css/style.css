@@ -80,24 +80,8 @@ img{
 .main-nav a:hover{
     color: #0bd;
 }
-
-/*HOME*/
-.cover-home{
-    background-image: url(../images/footer-l.webp);
-}
-.about{
-    margin: 4rem auto 0;
-}
-
 /*フッター
-----------------------------------------*/
-.page-footer{
-    background-image: url(../images/cover-home-l.webp);
-    padding-top: 12rem;
-}
-.info th{
-    padding: 2.5rem;
-}
+-------------------------*/
 .page-footer{
     background-image:  url(../images/footer-s.webp);
     background-size: cover;
@@ -170,4 +154,21 @@ img{
     .main-nav{
         font-size: 2rem;
     }
+/*HOME*/
+.cover-home{
+    background-image: url(../images/footer-l.webp);
 }
+.about{
+    margin: 4rem auto 0;
+}
+
+/*フッター*/
+.page-footer{
+    background-image: url(../images/cover-home-l.webp);
+    padding-top: 12rem;
+}
+.info th{
+    padding: 2.5rem;
+}
+}
+
