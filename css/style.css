@@ -119,3 +119,10 @@ img{
 .about p{
     margin-bottom: 3rem;
 }
+.copyright{
+    background-color: #432;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 6rem;
+    color: #fff;
+}
