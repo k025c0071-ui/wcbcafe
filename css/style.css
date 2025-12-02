@@ -108,12 +108,22 @@ img{
     padding: 1rem 0;
 }
 
-
+/*ヘッダーカバー画像
+-----------------------------*/
 .cover{
     background-size: cover;
     background-position: center bottom;
     height: 800px;
 }
+.sub-cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 528px;
+    margin-bottom: 4rem;
+}
+
+/*HOME
+----------------------------*/
 .cover-home{
     background-image: url(../images/cover-home-s.webp);
 }
@@ -125,6 +135,12 @@ img{
 }
 .about p{
     margin-bottom: 3rem;
+}
+
+/*NEWS
+--------------------------*/
+.cover-news{
+    background-image: url(../images/cover-news-s.webp);
 }
 .copyright{
     background-color: #432;
@@ -154,21 +170,23 @@ img{
     .main-nav{
         font-size: 2rem;
     }
-/*HOME*/
-.cover-home{
-    background-image: url(../images/footer-l.webp);
-}
-.about{
-    margin: 4rem auto 0;
+    /*HOME*/
+    .cover-home{
+        background-image: url(../images/footer-l.webp);
+    }
+    .about{
+        margin: 4rem auto 0;
+    }
+
+    /*フッター*/
+    .page-footer{
+        background-image: url(../images/cover-home-l.webp);
+        padding-top: 12rem;
+    }
+    .info th{
+        padding: 2.5rem;
+    }
 }
 
-/*フッター*/
-.page-footer{
-    background-image: url(../images/cover-home-l.webp);
-    padding-top: 12rem;
-}
-.info th{
-    padding: 2.5rem;
-}
-}
+
 
